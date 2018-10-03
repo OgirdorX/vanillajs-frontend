@@ -1,15 +1,15 @@
-class App {
+export default class App {
     constructor(selector) {
         this.appElement = document.querySelector(selector);
         this.componentsByName = {};
     }
     addComponent(component) {
-         /* Component {
-            name,
-            view,
-            model,
-            controller
-        } */
+        /* Component {
+           name,
+           view,
+           model,
+           controller
+       } */
         //console.log('addComponent()', `component: `);
         //console.log(component);
         this.componentsByName[component.name] = component;

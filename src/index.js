@@ -1,3 +1,9 @@
+import App from './app';
+import API from './API';
+import Router from './router';
+
+import './style.css';
+
 const app = new App('#app');
 const api = new API();
 

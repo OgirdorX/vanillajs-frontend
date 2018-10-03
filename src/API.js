@@ -1,4 +1,4 @@
-class API {
+export default class API {
     constructor() {
         this.API_URL = 'http://localhost:3000/v1';
         this.options = {
